@@ -83,4 +83,16 @@ public class Ipv6Client {
 			e.printStackTrace();
 		}
 	}
+	
+//	public static void printPacket(byte[] packet) {
+//	System.out.println("0        8        16       24");
+//	int counter=1;
+//	for(byte b: packet) {
+//	    System.out.print(Integer.toBinaryString(b & 255 | 256).substring(1) + " ");
+//	    if(counter%4 ==0) {
+//	    	System.out.println();
+//	    }
+//	    counter++;
+//	}
+//}
 }
